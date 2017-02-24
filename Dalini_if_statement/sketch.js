@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  background(145,255,100);
+  background(105,255,100);
   
   stroke(255);
   strokeWeight(2);
@@ -15,5 +15,6 @@ function draw() {
     fill(255, 0, 0);
   }
   
-  ellipse(300, 240, 100, 100);
+  rect(250, 140, 100, 100); //created a rectangle, when mouseX is >300 it should turn red
+ 
 }
